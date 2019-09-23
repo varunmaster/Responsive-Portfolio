@@ -225,3 +225,13 @@ input[type=submit] {
     margin-left: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    width: auto;
+    margin-left: auto;
+  }
+  #logo {
+    margin-left: auto;
+  }
+}
