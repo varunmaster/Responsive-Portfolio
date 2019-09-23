@@ -224,6 +224,9 @@ input[type=submit] {
   #logo {
     margin-left: 30px;
   }
+  nav {
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -233,6 +236,12 @@ input[type=submit] {
   }
   #logo {
     margin-left: auto;
+  }
+  nav {
+    margin-right: 20px;
+  }
+  .main-section {
+    width: 100%;
   }
 }
 
@@ -257,5 +266,12 @@ input[type=submit] {
     margin: 0 auto;
     width: auto;
     max-width: 100%;
+  }
+  .work {
+    width: auto;
+    max-width: 100%;
+  }
+  .main-section {
+    width: 100%;
   }
 }
