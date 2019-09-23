@@ -235,3 +235,27 @@ input[type=submit] {
     margin-left: auto;
   }
 }
+
+@media screen and (max-width: 640px){
+  .main-section {
+    width: auto;
+    margin-left: auto;
+  }
+  #logo {
+    margin-left: auto;
+    width: 100%;
+  }
+  nav {
+    margin-left: 150px;
+    width: auto;
+    float: left;
+    margin-top: auto;
+  }
+  .auth-image {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+}
